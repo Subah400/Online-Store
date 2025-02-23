@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
+        <h2 class="text-3xl font-semibold mb-2">Create a store</h2>
+        <p class="text-gray-600 mb-6">Add your basic store information and complete the setup</p>
+        
+        <form action="#" method="POST" class="space-y-5">
+            <div>
+                <label class="flex items-center text-sm font-medium text-gray-700 gap-2">
+                    <span>&#128187;</span> Give your online store a name
+                </label>
+                <input type="text" placeholder="How'd you like to call your store?" class="w-full mt-2 p-3 border border-gray-300 rounded-md">
+            </div>
+
+            <div>
+                <label class="flex items-center text-sm font-medium text-gray-700 gap-2">
+                    <span>&#128279;</span> Your online store subdomain
+                </label>
+                <div class="flex items-center border border-gray-300 rounded-md p-3 mt-2">
+                    <input type="text" placeholder="Enter your domain name" class="w-full outline-none">
+                    <span class="text-gray-500">.expressitbd.com</span>
+                </div>
+            </div>
+
+            <div>
+                <label class="flex items-center text-sm font-medium text-gray-700 gap-2">
+                    <span>&#127760;</span> Where's your store located?
+                </label>
+                <select class="w-full mt-2 p-3 border border-gray-300 rounded-md">
+                    <option>Bangladesh</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="flex items-center text-sm font-medium text-gray-700 gap-2">
+                    <span>&#128188;</span> What's your Category?
+                </label>
+                <select class="w-full mt-2 p-3 border border-gray-300 rounded-md">
+                    <option>Fashion</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="flex items-center text-sm font-medium text-gray-700 gap-2">
+                    <span>&#128181;</span> Choose store currency
+                </label>
+                <select class="w-full mt-2 p-3 border border-gray-300 rounded-md">
+                    <option>BDT (Taka)</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="flex items-center text-sm font-medium text-gray-700 gap-2">
+                    <span>&#128231;</span> Store contact email
+                </label>
+                <input type="email" placeholder="you@example.com" class="w-full mt-2 p-3 border border-gray-300 rounded-md">
+            </div>
+
+            <button type="submit" class="w-full bg-purple-500 text-white p-3 rounded-md hover:bg-purple-600 transition">Create store</button>
+        </form>
+    </div>
+</body>
+</html>
